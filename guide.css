@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+#content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.guide-section {
+    margin-bottom: 20px;
+}
+
+.guide-title {
+    font-weight: bold;
+}
+
+.guide-image img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+#back-to-list {
+    display: block;
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+
+
+    li {
+        padding: 0.5rem;
+    }
+
+    .guide-title {
+        font-size: 1rem;
+    }
+
+    .guide-content {
+        font-size: 0.9rem;
+    }
+}
+
+
+/* 視覺反饋 */
+
+
+.game-link:hover {
+    text-decoration: underline;
+    color: #4682b4; /* 鋼藍色 */
+}
+
+.game-link:active {
+    transform: translateY(2px); /* 點擊時稍微下移 */
+}
